@@ -528,6 +528,27 @@ importers:
         specifier: catalog:build
         version: 0.22.0(tsx@4.22.3)(typescript@6.0.3)
 
+  packages/self-inspect:
+    devDependencies:
+      '@devframes/hub':
+        specifier: workspace:*
+        version: link:../hub
+      '@preact/preset-vite':
+        specifier: catalog:build
+        version: 2.10.5(@babel/core@7.29.0)(preact@10.29.2)(rollup@4.60.3)(vite@8.0.14(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.3)(yaml@2.8.4))
+      devframe:
+        specifier: workspace:*
+        version: link:../devframe
+      preact:
+        specifier: catalog:frontend
+        version: 10.29.2
+      tsdown:
+        specifier: catalog:build
+        version: 0.22.0(tsx@4.22.3)(typescript@6.0.3)
+      vite:
+        specifier: catalog:build
+        version: 8.0.14(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.3)(yaml@2.8.4)
+
 packages:
 
   '@antfu/eslint-config@9.0.0':
