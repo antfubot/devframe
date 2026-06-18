@@ -120,6 +120,9 @@
       "@devframes/nuxt": [
         "./packages/nuxt/src/index.ts"
       ],
+      "@devframes/self-inspect": [
+        "./packages/self-inspect/src/index.ts"
+      ],
       "devframe/recipes/open-helpers": [
         "./packages/devframe/src/recipes/open-helpers.ts"
       ],
