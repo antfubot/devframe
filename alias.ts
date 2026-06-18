@@ -4,6 +4,7 @@ import { join, relative } from 'pathe'
 
 const root = fileURLToPath(new URL('.', import.meta.url))
 const r = (path: string) => fileURLToPath(new URL(`./packages/${path}`, import.meta.url))
+const p = (path: string) => fileURLToPath(new URL(`./plugins/${path}`, import.meta.url))
 
 export const alias = {
   'devframe/rpc/transports/ws-server': r('devframe/src/rpc/transports/ws-server.ts'),
@@ -43,6 +44,13 @@ export const alias = {
   '@devframes/hub': r('hub/src/index.ts'),
   '@devframes/nuxt/runtime/plugin.client': r('nuxt/src/runtime/plugin.client.ts'),
   '@devframes/nuxt': r('nuxt/src/index.ts'),
+  '@devframes/plugin-terminals/client': p('terminals/src/client/index.ts'),
+  '@devframes/plugin-terminals/node': p('terminals/src/node/index.ts'),
+  '@devframes/plugin-terminals/constants': p('terminals/src/constants.ts'),
+  '@devframes/plugin-terminals/types': p('terminals/src/types.ts'),
+  '@devframes/plugin-terminals/cli': p('terminals/src/cli.ts'),
+  '@devframes/plugin-terminals/vite': p('terminals/src/vite.ts'),
+  '@devframes/plugin-terminals': p('terminals/src/index.ts'),
   'devframe/recipes/open-helpers': r('devframe/src/recipes/open-helpers.ts'),
   'devframe/client': r('devframe/src/client/index.ts'),
   'devframe': r('devframe/src'),
