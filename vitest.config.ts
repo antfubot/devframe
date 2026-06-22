@@ -12,6 +12,7 @@ export default defineConfig({
       'examples/files-inspector',
       'examples/streaming-chat',
       'examples/next-runtime-snapshot',
+      'examples/a11y-inspector',
       'examples/minimal-next-devframe-hub',
       {
         test: {

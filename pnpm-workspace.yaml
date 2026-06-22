@@ -31,6 +31,7 @@ catalogs:
     tsx: ^4.22.3
     turbo: ^2.9.15
     vite: ^8.0.14
+    vite-plugin-solid: ^2.11.12
   deps:
     '@modelcontextprotocol/sdk': ^1.29.0
     '@valibot/to-json-schema': ^1.7.0
@@ -59,10 +60,12 @@ catalogs:
     vitepress: ^2.0.0-alpha.17
     vitepress-plugin-mermaid: ^2.0.17
   frontend:
+    axe-core: ^4.12.1
     next: ^16.2.6
     preact: ^10.29.2
     react: ^19.2.6
     react-dom: ^19.2.6
+    solid-js: ^1.9.13
   inlined:
     '@antfu/utils': ^9.3.0
     ua-parser-modern: ^0.1.1
