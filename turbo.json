@@ -63,7 +63,7 @@
       "dependsOn": ["devframe#build"],
       "outputs": ["dist/**"]
     },
-    "@devframes/a11y#build": {
+    "@devframes/plugin-a11y#build": {
       "outputLogs": "new-only",
       "dependsOn": ["devframe#build"],
       "outputs": ["dist/**"]
@@ -89,9 +89,9 @@
       "dependsOn": ["@devframes/plugin-git#build"],
       "outputs": ["dist/static/**"]
     },
-    "@devframes/a11y#cli:build": {
+    "@devframes/plugin-a11y#cli:build": {
       "outputLogs": "new-only",
-      "dependsOn": ["@devframes/a11y#build"],
+      "dependsOn": ["@devframes/plugin-a11y#build"],
       "outputs": ["dist/static/**"]
     }
   }

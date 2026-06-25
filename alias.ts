@@ -68,6 +68,11 @@ export const alias = {
   '@devframes/plugin-inspect/cli': p('inspect/src/cli.ts'),
   '@devframes/plugin-inspect/vite': p('inspect/src/vite.ts'),
   '@devframes/plugin-inspect': p('inspect/src/index.ts'),
+  '@devframes/plugin-a11y/client': p('a11y/src/client/index.ts'),
+  '@devframes/plugin-a11y/node': p('a11y/src/node/index.ts'),
+  '@devframes/plugin-a11y/cli': p('a11y/src/cli.ts'),
+  '@devframes/plugin-a11y/vite': p('a11y/src/vite.ts'),
+  '@devframes/plugin-a11y': p('a11y/src/index.ts'),
 }
 
 // update tsconfig.base.json
